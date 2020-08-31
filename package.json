@@ -1,0 +1,26 @@
+{
+  "name": "commitlint-plugin-regexscope",
+  "version": "0.0.1",
+  "description": "Commitlint plugin that supports only check regex match scope parts",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HikawaRin/commitlint-plugin-regexscope.git"
+  },
+  "author": "Hikawa Rin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HikawaRin/commitlint-plugin-regexscope/issues"
+  },
+  "homepage": "https://github.com/HikawaRin/commitlint-plugin-regexscope#readme",
+  "dependencies": {
+    "@commitlint/parse": "^9.1.2",
+    "@commitlint/rules": "^9.1.2"
+  },
+  "peerDependencies": {
+    "@commitlint/lint": ">=7.6.0"
+  }
+}
